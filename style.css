@@ -1,0 +1,109 @@
+body {
+	background: #EAE9F8;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif
+}
+
+main {
+	display: inline-block;
+	text-align: center;
+}
+
+section {
+	display: inline-block;
+	padding: 10px;
+}
+
+.textArea {
+	padding: 20px 10px 10px 10px;
+	font-size: 28px;
+	background-color: #EAE9F8;
+	color: #3b027d;
+	border: none;
+	overflow: auto;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+::placeholder {
+	color: #3b027d;
+	opacity: 1;
+}
+
+.warning {
+	padding: 10px 0 10px 0;
+}
+
+.btnEncriptar {
+  background-color: #3c027d;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.btnDesencriptar {
+  background-color: #d7d6d8;
+  color: #3c027d;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.mensagem {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px 10px 10px 10px;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    background: url("https://i.imgur.com/118LFMd.png") center center no-repeat;
+    border: 1px solid #888;
+}
+
+.mensagem::placeholder {
+	font-size: 15px;
+	text-align: center;
+	color: #555454;
+	padding: 500px 20px 0;
+}
+
+.btnCopiar {
+  background-color: #3c027d;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+.textArea {
+  width: 500px;
+  font-size: 25px;
+}
+
+.mensagem {
+  margin: 25px;
+  width: 500px;
+  height: 700px;
+}
